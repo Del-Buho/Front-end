@@ -1,13 +1,13 @@
 <HTML class="bg-black">
 	<head>
         <meta charset="UTF-8">
-        <!-- <title>AdminLTE | Hola mndo </title> -->
+        <!-- <title>AdminLTE | Login </title> -->
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
 
 		<title>Senasag Web</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/admin.css" media=""/>		 	
-    </head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css"  href="https://sistemas.upb.edu/css/admin.css" media=""/>
+   </head>
     <body class="bg-black">
 
 				
@@ -23,8 +23,10 @@
                         <input type="password" name="user[password]" class="form-control" placeholder="Contrase&ntilde;a" />
                     </div>          
                                     </div>
-                <div class="footer">                                                               
-                    <button type="submit" class="btn bg-green btn-block" >Acceder</button>
+                <div class="footer">
+			<center>                                                               
+                    <a href="menu.php"><button type="button" class="btn btn-success">Acceder</button>
+			</center>
                 </div>
             </form>
 
